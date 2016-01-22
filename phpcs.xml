@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Custom Standard">
+    <description>IdFly Coding Standard</description>
+
+    <exclude-pattern>vendor/*</exclude-pattern>
+
+    <rule ref="vendor/idfly/phpcs"/>
+
+    <rule ref="PSR2">
+        <exclude name="PSR1.Classes.ClassDeclaration.MultipleClasses"/>
+        <exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+    </rule>
+</ruleset>

@@ -1,0 +1,15 @@
+{
+    "name": "idfly/phpcs",
+
+    "type": "library",
+
+    "minimum-stability": "stable",
+
+    "support": {
+        "source": "https://github.com/idfly/phpcs"
+    },
+
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*"
+    }
+}
